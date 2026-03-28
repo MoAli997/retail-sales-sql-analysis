@@ -3,7 +3,6 @@
 ## Project Overview
 
 **Project Title:** Retail Sales Analysis  
-**Level:** Beginner  
 **Database:** retail_sales  
 
 This project demonstrates SQL skills used by data analysts to explore, clean, and analyze retail sales data.  
@@ -18,6 +17,24 @@ It includes database setup, data cleaning, exploratory data analysis (EDA), and 
 - Conduct exploratory data analysis (EDA)  
 - Solve business problems using SQL  
 - Extract insights about sales and customers  
+
+---
+
+## Database Structure
+
+The dataset is stored in a table called `retail_sales` with the following columns:
+
+- `transactions_id` – Unique transaction ID  
+- `sale_date` – Date of transaction  
+- `sale_time` – Time of transaction  
+- `customer_id` – Unique customer identifier  
+- `gender` – Customer gender  
+- `age` – Customer age  
+- `category` – Product category  
+- `quantity` – Quantity purchased  
+- `price_per_unit` – Price per item  
+- `cogs` – Cost of goods sold  
+- `total_sale` – Total transaction amount  
 
 ---
 
@@ -214,7 +231,22 @@ ORDER BY year, shift;
 
 ---
 
-# 🔍 Key Findings
+# 4. SQL Concepts Used
+
+- DDL (CREATE, DROP)  
+- DML (SELECT, DELETE)  
+- Aggregate Functions (`SUM`, `AVG`, `COUNT`)  
+- Filtering (`WHERE`)  
+- Grouping (`GROUP BY`)  
+- Sorting (`ORDER BY`)  
+- Date Functions (`EXTRACT`)  
+- Conditional Logic (`CASE WHEN`)  
+- Window Functions (`RANK() OVER`)  
+- Subqueries
+  
+---
+
+#  5. Key Findings
 
 - **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 - **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
@@ -223,7 +255,7 @@ ORDER BY year, shift;
 
 ---
 
-# 📊 Reports
+#  6. Reports
 
 - **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
@@ -231,13 +263,13 @@ ORDER BY year, shift;
 
 ---
 
-# 📌 Conclusion
+#  7. Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
 
 ---
 
-# 💡 Author
+#  Author
 
 **Mohamed Aly**  
-Aspiring Data Analyst  
+Aspiring Data Analyst | SQL | Python | Data Science  
